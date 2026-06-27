@@ -1,0 +1,34 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+
+# Compiled executables
+*.exe
+*.out
+*.app
+*.bin
+
+# C/C++ build directories
+Debug/
+Release/
+build/
+bin/
+obj/
+out/
+
+# Java build outputs
+*.class
+target/
+build/
+.gradle/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
