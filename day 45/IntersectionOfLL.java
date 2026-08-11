@@ -7,7 +7,7 @@ public class IntersectionOfLL {
             next = null;
         }
     }
-    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public static ListNode getIntersectionNodeBruteForce(ListNode headA, ListNode headB) {
 
         ListNode tempA = headA;
 
@@ -42,7 +42,7 @@ public class IntersectionOfLL {
         headB.next.next = new ListNode(1);
         headB.next.next.next = headA.next.next; // Intersection at node with value 8
 
-        ListNode intersectionNode = getIntersectionNode(headA, headB);
+        ListNode intersectionNode = getIntersectionNodeBruteForce(headA, headB);
 
         if (intersectionNode != null) {
             System.out.println("Intersection at node with value: " + intersectionNode.val);
